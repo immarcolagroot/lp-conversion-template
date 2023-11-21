@@ -6,7 +6,7 @@ import NavButton from "@/components/NavButton";
 export default function Header() {
   return (
     <header>
-      <div className="w-full h-16 flex justify-between items-center px-8 py-5">
+      <div className="w-full h-16 flex justify-between items-center px-8 py-4">
         <div className="flex-1">
           <Image src={CompanyLogo} alt="Logo" width={90} height={45} />
         </div>
