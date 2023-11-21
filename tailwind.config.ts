@@ -15,6 +15,7 @@ const config: Config = {
       "black-50": "#00000080",
       "black-75": "#000000bf",
       "gray-50": "#D9D9D980",
+      "btn": "#A335D740",
     },
   },
   plugins: [],
