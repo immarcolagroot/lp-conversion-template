@@ -7,14 +7,12 @@ import Iframe from "./Iframe";
 
 export default function HeroSection() {
   return (
-    <div className="pt-12 px-8 flex flex-col justify-center text-center">
+    <div className="pt-12 pb-16 px-8 flex flex-col justify-center text-center">
 
       <div>
-        <h1 className="text-black text-6xl font-extrabold leading-[62px]">
-          Aqui você coloca uma
-          <br />
-          headline chamativa
-        </h1>
+
+        <h1 className="text-black text-6xl font-extrabold leading-[62px]">Aqui você coloca uma <br /> headline chamativa</h1>
+
         <div className="text-center px-36 pt-8 text-black text-opacity-75 text-lg">
           <span className="font-normal">
             Corem ipsum dolor sit amet, consectetur adipiscing elit. Nunc{" "}
@@ -33,9 +31,11 @@ export default function HeroSection() {
 
       <Iframe />
 
-      <Button 
-      title="Marcar call gratuita"
-      />
+      <div className="pt-14 flex justify-center">
+        <Button
+          title="Marcar call gratuita"
+        />
+      </div>
 
       <div className="pt-2 flex flex-row justify-center gap-1">
         <Image src={Layer} alt="Layer" />
