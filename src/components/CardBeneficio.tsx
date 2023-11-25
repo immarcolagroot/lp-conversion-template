@@ -1,0 +1,28 @@
+import Image, { StaticImageData } from "next/image";
+
+interface CardBeneficioProps {
+  titulo: string;
+  imagem: StaticImageData;
+  comentario: string;
+  onClick?: () => void;
+}
+
+export default function CardBeneficio({ titulo, comentario, imagem }: CardBeneficioProps) {
+  return (
+    <div className="border border-primary rounded-xl bg-gray max-w-sm overflow-hidden shadow-lg">
+
+      <div className="pt-7 pb-9 py-5">
+        <h4 className="font-bold text-3xl pt-8">{titulo}</h4>
+        <div className="flex flex-col items-center py-5">
+          <Image className="h-12 w-11 rounded-full" src={imagem} alt="Beneficio" />
+        </div>
+        <p className="px-5 pb-9 text-gray-700 font-medium text-lg">
+          {comentario}
+        </p>
+      </div>
+
+    </div>
+  );
+}
+
+

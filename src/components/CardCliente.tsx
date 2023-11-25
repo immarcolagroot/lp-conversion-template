@@ -1,13 +1,13 @@
 import Image, { StaticImageData } from "next/image";
 
-interface CardProps {
+interface CardClienteProps {
   nomeCliente: string;
   imagem: StaticImageData;
   comentario: string;
   onClick?: () => void;
 }
 
-export default function Card({ nomeCliente, comentario, imagem }: CardProps) {
+export default function CardCliente({ nomeCliente, comentario, imagem }: CardClienteProps) {
   return (
     <div className="border border-black rounded-xl bg-gray max-w-sm overflow-hidden shadow-lg">
 
