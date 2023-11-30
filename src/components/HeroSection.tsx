@@ -35,6 +35,7 @@ export default function HeroSection() {
       <div className="pt-14 flex justify-center">
         <Button
           title="Marcar call gratuita"
+          border='black'
         />
       </div>
 

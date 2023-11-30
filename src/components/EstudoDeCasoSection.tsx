@@ -57,6 +57,7 @@ export default function EstudoDeCasoSection() {
         </div>
 
       </div >
+      
     </div >
   );
 }
