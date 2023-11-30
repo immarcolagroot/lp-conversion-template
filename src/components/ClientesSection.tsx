@@ -4,11 +4,11 @@ import Card from "./CardCliente";
 
 export default function ClientesSection() {
   return (
-    <div className="pt-16 pb-8 px-8 flex flex-col justify-center text-center">
+    <div className="pt-16 pb-8 px-8 flex flex-col items-center text-center">
 
         <h1 className="text-black text-6xl font-extrabold leading-[62px] pt-10">O que meus clientes têm a dizer</h1>
 
-        <div className="pt-12 px-8 flex justify-center gap-10">
+        <div className="flex flex-wrap justify-center gap-9 pt-12 max-w-7xl"> 
 
           <Card
             imagem={ImagemMontanha}

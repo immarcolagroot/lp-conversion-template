@@ -2,8 +2,8 @@ import Button from "./Button";
 
 export default function ProcessoSection() {
   return (
-    <div className="py-28 px-28">
-      <div className="flex place-items-start">
+    <div className="p-28">
+      <div className="container mx-auto flex ">
         <div className="w-full md:w-1/2 px-7">
           <h1 className="text-black text-6xl font-extrabold leading-[62px] pt-5">
             Nosso <br /> processo

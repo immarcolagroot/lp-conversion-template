@@ -15,7 +15,7 @@ export default function CardCliente({ nomeCliente, comentario, imagem }: CardCli
         <Image className="h-20 w-20 rounded-full shadow-lg" src={imagem} alt="Cliente" />
       </div>
 
-      <div className="pt-2 pb-3">
+      <div className="pt-2">
         <h4 className="font-bold text-3xl mb-2">{nomeCliente}</h4>
         <p className="px-5 pb-9 text-gray-700 font-medium text-lg">
           {comentario}

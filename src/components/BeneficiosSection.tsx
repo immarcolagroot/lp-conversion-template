@@ -4,7 +4,7 @@ import Selo from '@/assets/images/beneficio.svg'
 
 export default function EstudoDeCasoSection() {
     return (
-        <div className="pt-16 pb-8 px-8 flex flex-col justify-center text-center">
+        <div className="pt-16 pb-8 px-8 flex flex-col items-center text-center">
 
         <h1 className="text-black text-6xl font-extrabold leading-[62px] pt-10">Um título chamativo sobre benefícios</h1>
 
@@ -23,7 +23,7 @@ export default function EstudoDeCasoSection() {
           </span>
         </div>
 
-        <div className="pt-12 px-8 flex justify-center gap-10">
+        <div className="flex flex-wrap justify-center gap-9 pt-12 max-w-7xl">
 
           <CardBeneficio
             imagem={Selo}
