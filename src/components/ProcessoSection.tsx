@@ -5,7 +5,7 @@ export default function ProcessoSection() {
     <div className="py-28 px-8 md:px-16 lg:px-28">
       <div className="container mx-auto lg:flex">
         <div className="w-full lg:w-1/2 px-7">
-          <h1 className="text-black lg:text-6xl md:text-5xl text-4xl font-extrabold md:leading-[62px] pt-5">
+          <h1 className="text-black lg:text-6xl text-5xl  font-extrabold md:leading-[62px] pt-5">
             Nosso <br /> processo
           </h1>
 

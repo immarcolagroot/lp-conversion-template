@@ -8,7 +8,7 @@ export default function EstudoDeCasoSection() {
 
         <div className="lg:w-1/2 w-full px-5">
 
-          <h1 className="text-black lg:text-6xl md:text-5xl text-4xl font-extrabold md:leading-[62px] pt-5">Estudo de caso</h1>
+          <h1 className="text-black lg:text-6xl text-5xl font-extrabold md:leading-[62px] pt-5">Estudo de caso</h1>
 
           <p className="py-5 text-gray-700 font-medium text-lg">
             Corem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.

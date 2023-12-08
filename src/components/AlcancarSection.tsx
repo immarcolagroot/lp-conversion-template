@@ -6,7 +6,7 @@ export default function FaqSection() {
 
         <div className="w-3/4 border-2 border-primary rounded-3xl shadow-3xl flex flex-col items-center">
           <div className="text-center pt-14 w-4/5">
-            <h1 className="text-black text-6xl font-extrabold leading-[62px]">
+            <h1 className="text-black lg:text-6xl text-5xl font-extrabold leading-[62px]">
               Pronto para alcançar XYZ?
             </h1>
           </div>

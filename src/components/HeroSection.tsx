@@ -11,7 +11,7 @@ export default function HeroSection() {
 
       <div>
 
-        <h1 className="text-black lg:text-6xl md:text-5xl text-4xl font-extrabold md:leading-[62px]">Aqui você coloca uma <br /> headline chamativa</h1>
+        <h1 className="text-black lg:text-6xl text-5xl font-extrabold md:leading-[62px]">Aqui você coloca uma <br /> headline chamativa</h1>
 
         <div className="text-center lg:px-32 md:px-11 pt-8 text-black text-opacity-75 text-lg">
           <span className="font-normal">

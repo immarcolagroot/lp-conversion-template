@@ -2,7 +2,7 @@ export default function FaqSection() {
   return (
     <div className="px-28 flex flex-col">
         <div className="text-center">
-          <h1 className="text-6xl font-extrabold leading-[62px] pb-12">
+          <h1 className="lg:text-6xl text-5xl font-extrabold leading-[62px] pb-12">
             FAQ
           </h1>
         </div>

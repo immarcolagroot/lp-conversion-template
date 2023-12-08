@@ -5,11 +5,11 @@ export default function EntregavelSection() {
   return (
     <div className="pt-9 px-8 flex flex-col items-center text-center">
       <div>
-        <h1 className="text-black text-6xl font-extrabold leading-[62px]">
+        <h1 className="text-black lg:text-6xl text-5xl font-extrabold leading-[62px]">
           O que está incluído
         </h1>
 
-        <div className="px-36 pt-8 text-black text-opacity-75 text-lg">
+        <div className="text-center lg:px-32 md:px-11 pt-8 text-black text-opacity-75 text-lg">
           <span className="font-normal">
             Corem ipsum dolor sit amet, consectetur adipiscing elit. Nunc{" "}
           </span>

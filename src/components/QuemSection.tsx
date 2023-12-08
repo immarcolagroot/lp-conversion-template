@@ -6,7 +6,7 @@ export default function QuemSection() {
     <div className="px-28 py-52">
       <div className="container mx-auto flex text-center flex-row-reverse">
         <div className="w-full md:w-1/2 px-7">
-          <h1 className="text-black text-6xl font-extrabold leading-[62px] pt-5">
+          <h1 className="text-black lg:text-6xl text-5xl font-extrabold leading-[62px] pt-5">
             Quem sou eu
           </h1>
 
