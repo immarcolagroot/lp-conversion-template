@@ -1,6 +1,6 @@
 import Button from "./Button";
 
-export default function FaqSection() {
+export default function AlcancarSection() {
     return (
         <div className="flex justify-center py-32">
 
@@ -11,8 +11,8 @@ export default function FaqSection() {
             </h1>
           </div>
 
-          <div className="pt-10 text-center w-4/5">
-            <div className="px-10 pb-14">
+          <div className="text-center w-4/5">
+            <div className="lg:px-14 md:px-11 py-7">
               <p className="text-gray-700 font-medium text-lg">
                 Corem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
                 <strong>vulputate libero et velit interdum</strong> , ac aliquet
