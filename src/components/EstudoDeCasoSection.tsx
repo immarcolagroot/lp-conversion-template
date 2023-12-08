@@ -3,12 +3,12 @@ import Iframe from './Iframe';
 
 export default function EstudoDeCasoSection() {
   return (
-    <div className="p-28">
-      <div className="container mx-auto flex items-center">
+    <div className="px-16 md:px-24 lg:p-28">
+      <div className="container mx-auto items-center lg:flex">
 
-        <div className="w-full md:w-1/2 px-7">
+        <div className="lg:w-1/2 w-full px-5">
 
-          <h1 className="text-black text-6xl font-extrabold leading-[62px] pt-5">Estudo de caso</h1>
+          <h1 className="text-black lg:text-6xl md:text-5xl text-4xl font-extrabold md:leading-[62px] pt-5">Estudo de caso</h1>
 
           <p className="py-5 text-gray-700 font-medium text-lg">
             Corem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
@@ -21,7 +21,7 @@ export default function EstudoDeCasoSection() {
           </div>
         </div>
 
-        <div className="w-1/2 px-7">
+        <div className="lg:w-1/2 px-5">
 
           <Iframe
             width="w-full"
@@ -31,11 +31,11 @@ export default function EstudoDeCasoSection() {
 
       </div>
 
-      <div className="container mx-auto flex items-center flex-row-reverse">
+      <div className="container mx-auto items-center lg:flex-row-reverse lg:flex">
 
-        <div className="w-full md:w-1/2 px-7">
+        <div className="w-full lg:w-1/2 px-5">
 
-          <h1 className="text-black text-6xl font-extrabold leading-[62px] pt-5">Estudo de caso</h1>
+          <h1 className="text-black lg:text-6xl md:text-5xl text-4xl font-extrabold md:leading-[62px] pt-5">Estudo de caso</h1>
 
           <p className="py-5 text-gray-700 font-medium text-lg">
             Corem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
@@ -48,7 +48,7 @@ export default function EstudoDeCasoSection() {
           </div>
         </div>
 
-        <div className="w-1/2 px-7">
+        <div className="lg:w-1/2 px-5">
 
           <Iframe
             width="w-full"
