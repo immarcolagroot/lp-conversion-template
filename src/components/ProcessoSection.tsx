@@ -2,10 +2,10 @@ import Button from "./Button";
 
 export default function ProcessoSection() {
   return (
-    <div className="p-28">
-      <div className="container mx-auto flex ">
-        <div className="w-full md:w-1/2 px-7">
-          <h1 className="text-black text-6xl font-extrabold leading-[62px] pt-5">
+    <div className="py-28 px-8 md:px-16 lg:px-28">
+      <div className="container mx-auto lg:flex">
+        <div className="w-full lg:w-1/2 px-7">
+          <h1 className="text-black lg:text-6xl md:text-5xl text-4xl font-extrabold md:leading-[62px] pt-5">
             Nosso <br /> processo
           </h1>
 
@@ -21,9 +21,9 @@ export default function ProcessoSection() {
           </div>
         </div>
 
-        <div className="md:w-1/2 px-7">
+        <div className="lg:w-1/2 px-7">
           <div>
-            <h3 className="text-black text-5xl font-medium leading-[62px] pt-5">
+            <h3 className="text-black lg:text-6xl md:text-5xl text-4xl font-medium leading-[62px] pt-10 lg:pt-0">
               Passo #1
             </h3>
 
@@ -36,7 +36,7 @@ export default function ProcessoSection() {
           </div>
 
           <div>
-            <h3 className="text-black text-5xl font-medium leading-[62px] pt-5">
+            <h3 className="text-black lg:text-6xl md:text-5xl text-4xl font-medium leading-[62px]">
               Passo #2
             </h3>
 
@@ -47,8 +47,9 @@ export default function ProcessoSection() {
               conubia nostra, per inceptos himenaeos.
             </p>
           </div>
+
           <div>
-            <h3 className="text-black text-5xl font-medium leading-[62px] pt-5">
+            <h3 className="text-black lg:text-6xl md:text-5xl text-4xl font-medium leading-[62px]">
               Passo #3
             </h3>
 
@@ -59,8 +60,9 @@ export default function ProcessoSection() {
               conubia nostra, per inceptos himenaeos.
             </p>
           </div>
+
           <div>
-            <h3 className="text-black text-5xl font-medium leading-[62px] pt-5">
+            <h3 className="text-black lg:text-6xl md:text-5xl text-4xl font-medium leading-[62px]">
               Passo #4
             </h3>
 

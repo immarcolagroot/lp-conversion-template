@@ -3,7 +3,7 @@ import Iframe from './Iframe';
 
 export default function EstudoDeCasoSection() {
   return (
-    <div className="px-8 md:px-16 lg:p-28">
+    <div className="py-20 px-8 md:px-16 lg:p-28">
       <div className="container mx-auto items-center lg:flex">
 
         <div className="lg:w-1/2 w-full px-5">
