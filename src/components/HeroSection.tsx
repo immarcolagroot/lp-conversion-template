@@ -11,9 +11,9 @@ export default function HeroSection() {
 
       <div>
 
-        <h1 className="text-black text-6xl font-extrabold leading-[62px]">Aqui você coloca uma <br /> headline chamativa</h1>
+        <h1 className="text-black lg:text-6xl md:text-5xl text-4xl font-extrabold leading-[62px]">Aqui você coloca uma <br /> headline chamativa</h1>
 
-        <div className="text-center px-36 pt-8 text-black text-opacity-75 text-lg">
+        <div className="text-center lg:px-32 md:px-11 pt-8 text-black text-opacity-75 text-lg">
           <span className="font-normal">
             Corem ipsum dolor sit amet, consectetur adipiscing elit. Nunc{" "}
           </span>
@@ -46,7 +46,7 @@ export default function HeroSection() {
         </span>
       </div>
 
-      <div className="flex flex-row pt-20 justify-center items-center gap-16">
+      <div className="flex flex-wrap justify-center gap-9 pt-12 max-w-7xl">
         <Image src={CompanyLogo} alt="CompanyLogo" />
         <Image src={CompanyLogo} alt="CompanyLogo" />
         <Image src={CompanyLogo} alt="CompanyLogo" />
