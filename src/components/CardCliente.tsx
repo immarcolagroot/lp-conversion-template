@@ -16,8 +16,8 @@ export default function CardCliente({ nomeCliente, comentario, imagem }: CardCli
       </div>
 
       <div className="pt-2">
-        <h4 className="font-bold text-3xl mb-2">{nomeCliente}</h4>
-        <p className="px-5 pb-9 text-gray-700 font-medium text-lg">
+        <h4 className="font-bold md:text-3xl text-2xl mb-2">{nomeCliente}</h4>
+        <p className="px-5 pb-9 text-gray-700 font-medium text-base md:text-lg">
           {comentario}
         </p>
       </div>
