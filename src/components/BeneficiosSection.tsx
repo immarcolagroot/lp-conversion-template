@@ -2,13 +2,13 @@ import Button from "./Button";
 import CardBeneficio from "./CardBeneficio";
 import Selo from '@/assets/images/beneficio.svg'
 
-export default function EstudoDeCasoSection() {
+export default function BeneficiosSection() {
     return (
         <div className="pt-16 pb-8 px-8 flex flex-col items-center text-center">
 
-        <h1 className="text-black text-6xl font-extrabold leading-[62px] pt-10">Um título chamativo sobre benefícios</h1>
+        <h1 className="text-black lg:text-6xl md:text-5xl text-4xl font-extrabold md:leading-[62px] pt-10">Um título chamativo sobre benefícios</h1>
 
-        <div className="text-center px-36 pt-8 text-black text-opacity-75 text-lg">
+        <div className="text-center lg:px-32 md:px-11 pt-8 text-black text-opacity-75 text-lg">
           <span className="font-normal">
             Corem ipsum dolor sit amet, consectetur adipiscing elit. Nunc{" "}
           </span>
